@@ -1,10 +1,10 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 
-export default function Pagedua() {
+export default function Pagedua({navigation}) {
     return (
         <View>
-            <Text>page dua</Text>
+            <Button title='Go Page satu'onPress={()=>navigation.navigate('Satu')}/>
         </View>
     )
 }

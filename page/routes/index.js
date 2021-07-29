@@ -10,8 +10,8 @@ import Pagedua from '../pagedua'
 export default function Root() {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Pagesatu" component={Pagesatu} />
-            <Stack.Screen name="Pagedua" component={Pagedua} />
+            <Stack.Screen name="Satu" component={Pagesatu} />
+            <Stack.Screen name="Dua" component={Pagedua} />
         </Stack.Navigator>
     )
 }
